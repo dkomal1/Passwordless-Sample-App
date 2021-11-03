@@ -1,0 +1,27 @@
+{
+  "name": "fido2webauthn",
+  "version": "1.0.0",
+  "description": "\"Authenticate with fido2\"",
+  "main": "server.js",
+  "scripts": {
+    "pm2-start": "pm2 start server.js --name fido",
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"FIDO2",
+    "webauthn\""
+  ],
+  "author": "\"Nitesh Singh\"",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "mongoose": "^5.12.5",
+    "serve-index": "^1.9.1",
+    "socket.io": "^4.0.1"
+  }
+}

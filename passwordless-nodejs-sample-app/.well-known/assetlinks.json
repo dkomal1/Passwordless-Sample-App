@@ -1,0 +1,13 @@
+
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+   "package_name": "com.bluebricks.passwordless",
+      "sha256_cert_fingerprints": [
+        "E9:B5:61:8F:48:C8:62:4A:CC:70:C4:1F:B8:FA:E0:40:F0:68:68:D9:AF:F5:18:FC:6B:93:C8:53:5C:FB:0E:16"
+      ]
+    }
+  }
+]
