@@ -1,6 +1,6 @@
 const fido = new fido2auth(
-  "BASE-URL",
-  "CLIENT_ID"
+  "https://home.passwordless.com.au",
+  "nNm5XqJdJakN2gKjahhFY1WOcTqNlEAlTmktwcOKp8ABfrN_et"
 );
 const socket = io("BASE-URL");
 
